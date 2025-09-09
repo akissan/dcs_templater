@@ -1,0 +1,3 @@
+modules/__pycache__
+Templates/renders/*.html
+!Templates/renders/A-10C II_en.html

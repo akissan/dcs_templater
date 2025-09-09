@@ -21,6 +21,7 @@ class Templater:
         lm = LocaleManager(self.config)
 
         for module in module_paths:
+            modifiers = get_modifiers(module)
 
-
-        # print(raw_modules)
+    # def generate_map
+    # print(raw_modules)
