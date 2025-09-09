@@ -4,7 +4,7 @@ Requires controller image and [controller].json with button xy-image coordinates
 
 ## Example mapping image (template):
 
-![template example](Templates/renders/A-10C%20II_en.html)
+![template example](example.png)
 
 ## Current state:
 
