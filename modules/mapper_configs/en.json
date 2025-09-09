@@ -1,0 +1,46 @@
+{
+  "exclude": {
+    "universal": ["HOTAS", "ON/OFF", "On/Off", "SHOW/HIDE", "(Momentary)"],
+    "direction_map": {
+      "left": ["Left", "ROLL LEFT", "LEFT WING DOWN", "move LEFT"],
+      "right": ["Right", "ROLL RIGHT", "RIGHT WING DOWN", "move RIGHT"],
+      "up": [
+        "Forward",
+        "Up",
+        "Fwd",
+        "NOSE DOWN",
+        "PUSH(DESCEND)",
+        "move UP",
+        "Raise",
+        "Increase"
+      ],
+      "down": [
+        "Aft",
+        "Down",
+        "NOSE UP",
+        "PULL(CLIMB)",
+        "move DOWN",
+        "Lower",
+        "Decrease"
+      ],
+      "axis_x": [
+        "HORIZONTAL AXIS",
+        "X axis",
+        "Horizontal",
+        "slew right/left",
+        "Left/Right (JoyStick)",
+        "Left/Right (Joystick)"
+      ],
+      "axis_y": [
+        "VERTICAL AXIS",
+        "Y axis",
+        "Vertical",
+        "slew up/down",
+        "Up/Down (JoyStick)",
+        "Up/Down (Joystick)"
+      ],
+      "press": ["UP/DOWN", "press", "Up/Down"]
+    }
+  },
+  "wtf": { "Petrovitch Helper Intreface": "Petrovitch Helper Interface" }
+}

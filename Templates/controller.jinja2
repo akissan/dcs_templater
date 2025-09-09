@@ -1,0 +1,42 @@
+{% macro controller_view(aircraft_name, controller_name, key_config, cdm, mod_palette) -%}
+<section class="controller_body" />
+<section class="controller_grid" id="{{ controller_name }}_view" />
+<img class="controller_img" src="static/controller_images/{{ controller_name }}.png" alt="{{ controller_name }}" />
+<svg class="lineoverlay"></svg>
+
+{% for section, control_elements in key_config.items() if control_elements %}
+{# style="grid-area: {{ section }}" #}
+<section class="controller_section controller_section_{{ section }}">
+    {% for control_element, control_data in control_elements.items() %}
+    <table data-controller="{{ control_element }}">
+        <thead>
+            <tr>
+                <th colspan="2">{{ control_element }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for direction, key_functions in control_data.items() if direction != "meta" %}
+            <tr>
+                <th scope="row" rowspan="{{ key_functions|length }}">{{ cdm[direction] }}</th>
+                <td class="{{ mod_palette[key_functions.keys()|list|first] }}">
+                    {{key_functions.values()|list|first}}
+                </td>
+            </tr>
+            {% for mod, key_function in (key_functions.items()|list)[1:] %}
+            <tr>
+                <td class="{{ mod_palette[mod] }}">{{ key_function }}</td>
+            </tr>
+            {% endfor %}
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endfor %}
+</section>
+{% endfor %}
+</section>
+<div class="infobox">
+    <h3>{{ aircraft_name }}</h3>
+    <h4>{{ controller_name }}</h4>
+</div>
+</section>
+{%- endmacro %}

@@ -1,0 +1,11 @@
+- list of modules
+for module
+    - modifiers_for_modules -> split by controller
+    - controllers
+    for controller in controllers
+        - get map: key - [({modifiers}, action)]. Key is cleaned, Action in reversed to action_key
+        - add modifier to map
+        
+
+
+

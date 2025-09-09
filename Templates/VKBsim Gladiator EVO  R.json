@@ -1,0 +1,121 @@
+{
+  "top": {
+    "Ministick": {
+      "press": 13,
+      "axis_x": "rx",
+      "axis_y": "ry",
+      "meta": {
+        "x": 160,
+        "y": 65
+      }
+    },
+    "Stadium Hat": {
+      "up": 22,
+      "right": 24,
+      "down": 21,
+      "left": 23,
+      "press": 14,
+      "meta": {
+        "x": 196,
+        "y": 105
+      }
+    },
+    "Dome Hat": {
+      "up": "POV_1_U",
+      "right": "POV_1_R",
+      "down": "POV_1_D",
+      "left": "POV_1_L",
+      "press": 15,
+      "meta": {
+        "x": 234,
+        "y": 65
+      }
+    }
+  },
+  "left": {
+    "Weapon Release": {
+      "press": 12,
+      "meta": {
+        "x": 150,
+        "y": 117
+      }
+    },
+    "CMS Hat": {
+      "up": 30,
+      "right": 32,
+      "down": 29,
+      "left": 31,
+      "press": 33,
+      "meta": {
+        "x": 152,
+        "y": 213
+      }
+    },
+    "Pinky Button": {
+      "press": 11,
+      "meta": {
+        "x": 184,
+        "y": 343
+      }
+    },
+    "Base Buttons": {
+      "left": 7,
+      "press": 6,
+      "right": 5,
+      "meta": {
+        "x": 212,
+        "y": 475
+      }
+    }
+  },
+  "down": {
+    "SW1": {
+      "up": 3,
+      "down": 4,
+      "meta": {
+        "x": 148,
+        "y": 547
+      }
+    },
+    "Wheel": {
+      "axis_y": "z",
+      "meta": {
+        "x": 213,
+        "y": 547
+      }
+    },
+    "Encoder": {
+      "up": 1,
+      "down": 2,
+      "meta": {
+        "x": 277,
+        "y": 547
+      }
+    }
+  },
+  "right": {
+    "Side Button": {
+      "press": 16,
+      "meta": {
+        "x": 454,
+        "y": 110
+      }
+    },
+    "Secondary Trigger": {
+      "up": 35,
+      "down": 36,
+      "meta": {
+        "x": 413,
+        "y": 146
+      }
+    },
+    "Trigger": {
+      "first_stage": 10,
+      "second_stage": 9,
+      "meta": {
+        "x": 462,
+        "y": 165
+      }
+    }
+  }
+}

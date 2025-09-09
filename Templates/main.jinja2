@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <title>{{ aircraft_name }}</title>
+        <link rel="stylesheet" href="static/reset.css" />
+        <link rel="stylesheet" href="static/styles.css" />
+    </head>
+
+    <body>
+        <section class="main_container">
+            {% from "controller.jinja2" import controller_view %}
+            {% for controller_name, key_config in data.items() %}
+            {{ controller_view(aircraft_name, controller_name, key_config, cdm, mod_palette) }}
+            {% endfor %}
+        </section>
+        <script>
+            var data = {{ data | tojson | safe }}
+        </script>
+        <script src="static/script.js"></script>
+    </body>
+
+</html>

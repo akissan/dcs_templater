@@ -1,0 +1,92 @@
+{
+  "top": {
+    "Ministick": {
+      "press": 6,
+      "axis_x": "x",
+      "axis_y": "y",
+      "meta": {
+        "x": 385,
+        "y": 165
+      }
+    },
+    "China Hat": {
+      "up": 4,
+      "down": 5,
+      "meta": {
+        "x": 430,
+        "y": 158
+      }
+    },
+    "Middle Button": {
+      "press": 3,
+      "meta": {
+        "x": 460,
+        "y": 144
+      }
+    },
+    "Side Button": {
+      "press": 2,
+      "meta": {
+        "x": 498,
+        "y": 136
+      }
+    }
+  },
+  "left": {
+    "Coolie Hat": {
+      "up": "POV_1_U",
+      "right": "POV_1_R",
+      "down": "POV_1_D",
+      "left": "POV_1_L",
+      "meta": {
+        "x": 261,
+        "y": 106
+      }
+    },
+    "Boat Hat": {
+      "up": 7,
+      "right": 8,
+      "down": 9,
+      "left": 10,
+      "meta": {
+        "x": 235,
+        "y": 135
+      }
+    },
+    "Castle Hat": {
+      "up": 11,
+      "right": 12,
+      "down": 13,
+      "left": 14,
+      "meta": {
+        "x": 219,
+        "y": 195
+      }
+    },
+    "Thumb Button": {
+      "press": 1,
+      "meta": {
+        "x": 204,
+        "y": 218
+      }
+    }
+  },
+  "down": {
+    "Rocker Axis": {
+      "axis_x": "rz",
+      "meta": {
+        "x": 440,
+        "y": 252
+      }
+    }
+  },
+  "right": {
+    "Rotary Wheel": {
+      "axis_y": "SLIDER1",
+      "meta": {
+        "x": 529,
+        "y": 98
+      }
+    }
+  }
+}
